@@ -12,39 +12,9 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Akıl Defteri',
+      title: 'Ek Kaynak',
       home: Scaffold(
         backgroundColor: Colors.grey[200],
-        appBar: AppBar(
-          title: const Text('Akıl Defteri'),
-          actions: [
-            Builder(
-              builder: (ctx) {
-                return ReactionButton<String>(
-                  onReactionChanged: (String? value) {
-                    ScaffoldMessenger.of(ctx).showSnackBar(
-                      SnackBar(
-                        content: Text('Selected value: $value'),
-                      ),
-                    );
-                  },
-                  reactions: example_data.flagsReactions,
-                  initialReaction: Reaction<String>(
-                    value: null,
-                    icon: const Icon(
-                      Icons.language,
-                    ),
-                  ),
-                  boxColor: Colors.black.withOpacity(0.5),
-                  boxRadius: 10,
-                  boxDuration: const Duration(milliseconds: 500),
-                  itemScaleDuration: const Duration(milliseconds: 200),
-                );
-              },
-            ),
-            const SizedBox(width: 10),
-          ],
-        ),
         body: Builder(
           builder: (_) {
             return ListView(

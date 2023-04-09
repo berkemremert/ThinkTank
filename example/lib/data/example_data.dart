@@ -3,16 +3,16 @@ import 'package:flutter_reaction_button/flutter_reaction_button.dart';
 
 List<Reaction<String>> flagsReactions = [
   Reaction<String>(
-    value: 'en',
+    value: 'tr',
     previewIcon: _buildFlagsPreviewIcon(
-        'assets/images/united-kingdom-round.png', 'English'),
-    icon: _buildIcon('assets/images/united-kingdom.png'),
+        'assets/images/tr_rounded.png', 'Turkish'),
+    icon: _buildIcon('assets/images/tr.png'),
   ),
   Reaction<String>(
-    value: 'tr',
+    value: 'en',
     previewIcon:
-        _buildFlagsPreviewIcon('assets/images/tr_rounded.png', 'Turkish'),
-    icon: _buildIcon('assets/images/tr.png'),
+        _buildFlagsPreviewIcon('assets/images/united-kingdom-round.png', 'English'),
+    icon: _buildIcon('assets/images/united-kingdom.png'),
   ),
   Reaction<String>(
     value: 'gr',
