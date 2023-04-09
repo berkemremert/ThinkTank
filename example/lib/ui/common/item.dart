@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_reaction_button/flutter_reaction_button.dart';
 
+import '../../Screens/video_player.dart';
 import '../../data/example_data.dart' as example;
 import '../../models/comment.dart';
 import '../comments.dart';
@@ -50,13 +51,10 @@ class _ItemState extends State<Item> with AutomaticKeepAliveClientMixin {
           children: [
             AspectRatio(
               aspectRatio: 2,
-              child: Image.asset(
-                widget.imgPath,
-                height: 200,
-                width: double.infinity,
-                fit: BoxFit.cover,
+              child:
+              YoutubeVideo(
+                widget.imgPath),
               ),
-            ),
             Container(
               margin: const EdgeInsets.symmetric(horizontal: 25, vertical: 10),
               height: 1,

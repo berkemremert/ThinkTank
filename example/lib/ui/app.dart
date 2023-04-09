@@ -21,15 +21,9 @@ class AppWidget extends StatelessWidget {
             return ListView(
               padding: const EdgeInsets.symmetric(vertical: 5),
               children: [
-                YoutubeVideo(
-                    "https://www.youtube.com/watch?v=Ci4t-NkOY3I&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG"),
-                ItemContainer(
-                  imgPath: 'assets/images/img_soru_1.jpg',
-                  reactions: example_data.reactions,
-                ),
                 Item(
                   title: 'Akademi 2. Ders',
-                  imgPath: 'assets/images/img2.jpg',
+                  imgPath: "https://www.youtube.com/watch?v=VPvVD8t02U8&ab_channel=freeCodeCamp.org",
                   reactions: example_data.reactions,
                 ),
                 ItemContainer(
@@ -38,7 +32,7 @@ class AppWidget extends StatelessWidget {
                 ),
                 Item(
                   title: 'Akademi 3. Ders',
-                  imgPath: 'assets/images/img1.jpg',
+                  imgPath: "https://www.youtube.com/watch?v=3XipSv2CWiQ&ab_channel=FlutterMapp",
                   reactions: example_data.reactions,
                 ),
                 ItemContainer(
@@ -47,7 +41,7 @@ class AppWidget extends StatelessWidget {
                 ),
                 Item(
                   title: 'Akademi 4. Ders',
-                  imgPath: 'assets/images/img2.jpg',
+                  imgPath: "https://www.youtube.com/watch?v=l4bLPfS1uik&t=548s&ab_channel=AtifNaseem",
                   reactions: example_data.reactions,
                 ),
                 ItemContainer(
@@ -56,7 +50,7 @@ class AppWidget extends StatelessWidget {
                 ),
                 Item(
                   title: 'Akademi 5. Ders',
-                  imgPath: 'assets/images/img1.jpg',
+                  imgPath: "https://www.youtube.com/watch?v=FotsFANrIrU&ab_channel=FlutterMapp",
                   reactions: example_data.reactions,
                 ),
                 ItemContainer(
