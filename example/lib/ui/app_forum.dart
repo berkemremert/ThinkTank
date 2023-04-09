@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_reaction_button/flutter_reaction_button.dart';
 import 'package:flutter_reaction_button_test/ui/common/item_forum.dart';
 
+import '../Screens/video_player.dart';
 import '../data/example_data.dart' as example_data;
 import 'common/item.dart';
 import 'common/item_container.dart';

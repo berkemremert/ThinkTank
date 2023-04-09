@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_reaction_button_test/Screens/video_player.dart';
 import 'Sayfa1.dart';
 import 'Sayfa2.dart';
 import 'SoruSor.dart';
 import 'UserProfile.dart';
+import 'video_player.dart';
 
 ///Users/berkemremert/Downloads/flutter-reaction-button-master/example/lib/Screens/Sayfa1.dart
 
