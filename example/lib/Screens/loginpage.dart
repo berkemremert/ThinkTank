@@ -32,7 +32,7 @@ class _LoginPageState extends State<LoginPage> {
               RichText(
                 text: TextSpan(
                     text: 'ThinkTank',
-                    style: TextStyle(color: Colors.black, fontSize: 35),
+                    style: TextStyle(color: Colors.black, fontSize: 35, fontWeight: FontWeight.bold),
                     children: <TextSpan>[
                     ]
                 ),
