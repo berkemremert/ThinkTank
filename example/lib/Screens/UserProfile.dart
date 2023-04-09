@@ -8,6 +8,7 @@ class UserProfile extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Profilim'),
+        backgroundColor: Colors.deepOrangeAccent, //<-- SEE HERE
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,

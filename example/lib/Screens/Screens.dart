@@ -31,6 +31,7 @@ class _ScreensState extends State<Screens> {
                indicatorColor:Colors.orange ,
               indicatorSize: TabBarIndicatorSize.label ,
             ),
+            backgroundColor: Colors.deepOrangeAccent, //<-- SEE HERE
             actions: [
               IconButton(
                 icon: CircleAvatar(
