@@ -11,10 +11,10 @@ ThinkTank is an open source project. Everyone can contribute to the project. If 
 ## License
 ThinkTank is licensed under the MIT License. See the LICENSE file for more information.
 ## Developers
-- @ihoflaz
-- @dilahazalbilgin
-- @berkemremert
-- @kevserkrhnc
+- [@ihoflaz](https://github.com/ihoflaz)
+- [@dilahazalbilgin](https://github.com/dilahazalbilgin)
+- [@berkemremert](https://github.com/berkemremert)
+- [@Kevserkrhnc](https://github.com/Kevserkrhnc)
 ## Screenshots
 ![Screenshot 1](./example/ekranlar/ss1.png)
 ![Screenshot 2](./example/ekranlar/ss2.png)
