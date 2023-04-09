@@ -13,6 +13,7 @@ dependencies:
 youtube_player_flutter: ^8.1.0
 visibility_detector: ^0.3.3
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -28,6 +28,8 @@ dependencies:
     path: ../
   youtube_player_flutter: ^8.1.0
   visibility_detector: ^0.3.3
+  group_radio_button:
+    path: "../../group_radio_button-master"
 
 dev_dependencies:
   flutter_test:

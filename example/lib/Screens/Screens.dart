@@ -23,7 +23,7 @@ class _ScreensState extends State<Screens> {
         length: 2,
         child: Scaffold(
           appBar: AppBar(
-            title: const Text('Memento'),
+            title: const Text('ThinkTank'),
             centerTitle: true,
             bottom: const TabBar(
               tabs: [
@@ -37,13 +37,18 @@ class _ScreensState extends State<Screens> {
             actions: [
               IconButton(
                 icon: CircleAvatar(
-                  backgroundImage: NetworkImage('https://pbs.twimg.com/media/Dk4pYctXcAAhY3J.jpg'),
+                  backgroundColor: Colors.white,
+                  backgroundImage: NetworkImage('https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG.png'),
                 ),
                 onPressed: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UserProfile(),
+                      builder: (context) => UserProfile(
+                        kullaniciAdi: 'Hulusi Oflaz',
+                        eposta: 'hulusioflaz@gmail.com',
+                        selectedOption1: 'Flutter',
+                        selectedOption2: 'Bursiyer',),
                     ),
                   );
                 },

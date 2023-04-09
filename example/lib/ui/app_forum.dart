@@ -29,12 +29,22 @@ class AppWidget_forum extends StatelessWidget {
                 ),
                 Item_forum(
                   title: 'Forum Paylaşım 2',
-                  imgPath: 'assets/images/forum_2.jpg',
+                  imgPath: 'assets/images/forumsorular-2.jpg',
                   reactions: example_data.reactions,
                 ),
                 Item_forum(
                   title: 'Forum Paylaşım 3',
-                  imgPath: 'assets/images/forum_3.jpg',
+                  imgPath: 'assets/images/forumsorular-3.jpg',
+                  reactions: example_data.reactions,
+                ),
+                Item_forum(
+                  title: 'Forum Paylaşım 4',
+                  imgPath: 'assets/images/forumsorular-4.jpg',
+                  reactions: example_data.reactions,
+                ),
+                Item_forum(
+                  title: 'Forum Paylaşım 5',
+                  imgPath: 'assets/images/forumsorular-5.jpg',
                   reactions: example_data.reactions,
                 ),
               ],

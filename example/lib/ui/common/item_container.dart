@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_reaction_button/flutter_reaction_button.dart';
+import '../../Screens/SoruSor.dart';
 
 class ItemContainer extends StatefulWidget {
   const ItemContainer({
@@ -57,30 +58,6 @@ class _ItemContainerState extends State<ItemContainer>
                   width: double.infinity,
                   fit: BoxFit.cover,
                 ),
-              ),
-            ),
-            PositionedDirectional(
-              end: 5,
-              bottom: 5,
-              child: Container(
-                height: 30,
-                width: 30,
-                decoration: BoxDecoration(
-                  color: Colors.black.withOpacity(.35),
-                  shape: BoxShape.circle,
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black.withOpacity(.3),
-                      offset: const Offset(0, 3),
-                      blurRadius: 3,
-                    )
-                  ],
-                ),
-                child: _selectedReaction != null
-                    ? widget.reactions
-                        .firstWhere((value) => value.value == _selectedReaction)
-                        .previewIcon
-                    : const SizedBox(),
               ),
             ),
           ],
