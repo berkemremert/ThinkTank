@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_reaction_button/flutter_reaction_button.dart';
+import 'package:flutter_reaction_button_test/ui/common/item_forum.dart';
 
 import '../data/example_data.dart' as example_data;
 import 'common/item.dart';
@@ -20,22 +21,14 @@ class AppWidget_forum extends StatelessWidget {
             return ListView(
               padding: const EdgeInsets.symmetric(vertical: 5),
               children: [
-                Item(
+                Item_forum(
                   title: 'Forum Paylaşım 1',
                   imgPath: 'assets/images/forum_1.jpg',
                   reactions: example_data.reactions,
                 ),
-                ItemContainer(
-                  imgPath: 'assets/images/img_soru_1.jpg',
-                  reactions: example_data.reactions,
-                ),
-                Item(
+                Item_forum(
                   title: 'Akademi 2. Ders',
-                  imgPath: 'assets/images/img2.jpg',
-                  reactions: example_data.reactions,
-                ),
-                ItemContainer(
-                  imgPath: 'assets/images/img_soru_2.jpg',
+                  imgPath: 'assets/images/forum_1.jpg',
                   reactions: example_data.reactions,
                 ),
               ],

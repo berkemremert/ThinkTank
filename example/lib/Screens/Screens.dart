@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'Sayfa1.dart';
 import 'Sayfa2.dart';
 import 'SoruSor.dart';
+import 'UserProfile.dart';
 
 ///Users/berkemremert/Downloads/flutter-reaction-button-master/example/lib/Screens/Sayfa1.dart
 
-
+import 'package:flutter/material.dart';
 class Screens extends StatefulWidget {
   const Screens({Key? key}) : super(key: key);
 
@@ -30,6 +31,21 @@ class _ScreensState extends State<Screens> {
                indicatorColor:Colors.orange ,
               indicatorSize: TabBarIndicatorSize.label ,
             ),
+            actions: [
+              IconButton(
+                icon: CircleAvatar(
+                  backgroundImage: NetworkImage('https://pbs.twimg.com/media/Dk4pYctXcAAhY3J.jpg'),
+                ),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => UserProfile(),
+                    ),
+                  );
+                },
+              ),
+            ],
           ),
             floatingActionButton: FloatingActionButton(
               backgroundColor: Colors.white,
