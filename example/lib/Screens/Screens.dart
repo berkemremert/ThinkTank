@@ -25,8 +25,8 @@ class _ScreensState extends State<Screens> {
             centerTitle: true,
             bottom: const TabBar(
               tabs: [
-              Tab(text: 'Ek Kaynak'),
               Tab(text: 'Forum'),
+              Tab(text: 'Ek Kaynak'),
             ],
                indicatorColor:Colors.orange ,
               indicatorSize: TabBarIndicatorSize.label ,
@@ -47,15 +47,8 @@ class _ScreensState extends State<Screens> {
               ),
             ],
           ),
-            floatingActionButton: FloatingActionButton(
-              backgroundColor: Colors.white,
-                onPressed: (){
-                Navigator.push(context,
-                MaterialPageRoute(builder: (context) => SoruSor()));
-                },
-            ),
           body: TabBarView(children: [
-            Sayfa1(), Sayfa2(),
+            Sayfa2(), Sayfa1(),
           ],)
         ));
   }

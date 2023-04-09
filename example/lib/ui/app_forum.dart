@@ -27,8 +27,13 @@ class AppWidget_forum extends StatelessWidget {
                   reactions: example_data.reactions,
                 ),
                 Item_forum(
-                  title: 'Akademi 2. Ders',
-                  imgPath: 'assets/images/forum_1.jpg',
+                  title: 'Forum Paylaşım 2',
+                  imgPath: 'assets/images/forum_2.jpg',
+                  reactions: example_data.reactions,
+                ),
+                Item_forum(
+                  title: 'Forum Paylaşım 3',
+                  imgPath: 'assets/images/forum_3.jpg',
                   reactions: example_data.reactions,
                 ),
               ],
