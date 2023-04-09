@@ -29,6 +29,15 @@ class _LoginPageState extends State<LoginPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
+              RichText(
+                text: TextSpan(
+                    text: 'ThinkTank',
+                    style: TextStyle(color: Colors.black, fontSize: 35),
+                    children: <TextSpan>[
+                    ]
+                ),
+              ),
+              SizedBox(height: 10.0),
               ItemContainer(
                 imgPath: 'assets/images/flutterdash.jpg',
                 reactions: example_data.reactions,
