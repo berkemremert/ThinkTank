@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_reaction_button_test/Screens/soruu.dart';
+import 'package:flutter_reaction_button_test/ui/app_forum.dart';
 import 'SoruSor.dart';
 
 class Sayfa2 extends StatefulWidget {
@@ -11,10 +13,7 @@ class Sayfa2 extends StatefulWidget {
 class _Sayfa2State extends State<Sayfa2> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('Svjhjvjgcfx'),
-      ),
+    return const AppWidget_forum(
     );
   }
 }
